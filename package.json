@@ -1,0 +1,42 @@
+{
+  "name": "form-create-antd",
+  "version": "1.0.1",
+  "description": "基于antd生成的高阶组件form",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "npx babel src --out-dir lib --plugins=@babel/plugin-transform-arrow-functions",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Billy96/form-create.git"
+  },
+  "keywords": [
+    "form",
+    "form-create",
+    "form-create-antd",
+    "create",
+    "create-antd",
+    "antd",
+    "form-antd"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Billy96/form-create/issues"
+  },
+  "homepage": "https://github.com/Billy96/form-create#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "antd": "^4.9.2",
+    "lodash": "^4.17.20",
+    "react": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/plugin-transform-arrow-functions": "^7.12.1",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7"
+  }
+}
